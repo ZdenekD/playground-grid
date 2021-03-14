@@ -1,0 +1,76 @@
+.twoVwColumn {
+    grid-template-columns: 10vw 30vw;
+}
+
+.twoVWRow {
+    height: 30vw;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 10vw 15vw;
+}
+
+.twoVhColumn {
+    grid-template-columns: 10vh 30vh;
+}
+
+.twoVhRow {
+    height: 30vh;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 10vh 15vh;
+}
+
+.twoVmaxColumn {
+    grid-template-columns: 10vmax 30vmax;
+}
+
+.twoVmaxRow {
+    height: 30vmax;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 10vmax 15vmax;
+}
+
+.twoVminColumn {
+    grid-template-columns: 10vmin 30vmin;
+}
+
+.twoVminRow {
+    height: 30vmin;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 10vmin 15vmin;
+}
+
+.twoEmColumn {
+    grid-template-columns: 20em 10em;
+}
+
+.twoEmRow {
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 10em 15em;
+}
+
+.twoRemColumn {
+    grid-template-columns: 20rem 10rem;
+}
+
+.twoRemRow {
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 10rem 15rem;
+}
+
+.twoFixedColumn {
+    grid-template-columns: 200px 300px 150px;
+}
+
+.twoFixedRow {
+    grid-template-columns: 100px 300px;
+    grid-template-rows: 200px 5rem;
+}
+
+.twoPercentageColumn {
+    grid-template-columns: 25% 40%;
+}
+
+.twoPercentageRow {
+    height: 600px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 40%;
+}

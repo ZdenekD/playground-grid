@@ -1,0 +1,23 @@
+.repeatFixed {
+    grid-template-columns: repeat(4, 200px);
+}
+
+.repeatPercentage {
+    grid-template-columns: repeat(3, 25%);
+}
+
+.repeatFraction {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.repeatMinmax {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+.repeatMultipleColumns {
+    grid-template-columns: repeat(2, 100px 1fr 80px);
+}
+
+.bothSetAndRepeatColumns {
+    grid-template-columns: 200px repeat(2, 1fr 2fr) 15%;
+}

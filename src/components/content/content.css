@@ -1,0 +1,27 @@
+.minContent {
+    grid-template-columns: min-content 200px;
+}
+
+.maxContent {
+    grid-template-columns: max-content 200px;
+}
+
+.minMaxContent {
+    grid-template-columns: minmax(min-content, max-content) 200px;
+}
+
+.fixedFitContent {
+    grid-template-columns: fit-content(300px) minmax(100px, 1fr);
+}
+
+.percentageFitContent {
+    grid-template-columns: fit-content(50%) 1fr;
+}
+
+.autoFitContent {
+    grid-template-columns: fit-content(auto) 1fr;
+}
+
+.fractionFitContent {
+    grid-template-columns: fit-content(1fr) 1fr;
+}

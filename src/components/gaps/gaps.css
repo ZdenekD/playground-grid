@@ -1,0 +1,49 @@
+.gaps {
+
+    :global {
+        .container {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
+.columnGap {
+    column-gap: 10px;
+}
+
+.rowGap {
+    row-gap: 10px;
+}
+
+.bothGap {
+    gap: 10px;
+}
+
+.percentageGap {
+    gap: 5%;
+}
+
+.vwGap {
+    gap: 5vw;
+}
+
+.vhGap {
+    gap: 5vh;
+}
+
+.vmaxGap {
+    gap: 5vmax;
+}
+
+.vminGap {
+    gap: 5vmin;
+}
+
+.emGap {
+    font-size: 30px;
+    gap: 4em;
+}
+
+.remGap {
+    gap: 4rem;
+}

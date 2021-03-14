@@ -1,0 +1,60 @@
+.fixedMinmaxColumn {
+    grid-template-columns: minmax(200px, 400px) 100px;
+}
+
+.fixedMinmaxRow {
+    height: 30vh;
+    grid-template-columns: auto auto;
+    grid-template-rows: minmax(100px, 200px) 50px;
+}
+
+.fixedPercentageMinmaxColumn {
+    grid-template-columns: minmax(100px, 50%) 200px;
+}
+
+.fixedFractionMinmaxColumn {
+    grid-template-columns: minmax(150px, 2fr) 1fr;
+}
+
+.fixedAutoMinmaxColumn {
+    grid-template-columns: minmax(150px, auto) 100px;
+}
+
+.autoFixedMinmaxColumn {
+    grid-template-columns: minmax(auto, 300px) 100px;
+}
+
+.multipleMinmaxColumn {
+    grid-template-columns: minmax(200px, 2fr) minmax(100px, 3fr);
+}
+
+.percentageFixedMinmax {
+    grid-template-columns: minmax(80%, 300px) 20%;
+}
+
+.viewportFixedMinmax {
+    grid-template-columns: minmax(40vw, 200px) 20vw;
+}
+
+.emFixedMinmax {
+    grid-template-columns: minmax(10em, 300px) 100px;
+    font-size: 20px;
+}
+
+.remFixedMinmax {
+    grid-template-columns: minmax(15rem, 300px) 100px;
+}
+
+/* You can't use fraction unit as minimum value (it's invalid) */
+.fractionFixedMinmax {
+    grid-template-columns: minmax(1fr, 200px) 1fr;
+}
+
+.twoFractionsMinmax {
+    grid-template-columns: minmax(1fr, 2fr) 1fr;
+}
+
+/* You can't use minmax function inside minmax function */
+.innerMinmax {
+    grid-template-columns: minmax(100px, minmax(200px, 1fr)) 2fr;
+}

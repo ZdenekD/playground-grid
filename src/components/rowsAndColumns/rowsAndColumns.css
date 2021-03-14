@@ -1,0 +1,21 @@
+.twoColumn {
+    grid-template-columns: 50% 50%;
+}
+
+.justRows {
+    grid-template-rows: 4rem 12rem 4rem 5rem;
+}
+
+.twoByTwo {
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px;
+}
+
+.fourByOne {
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 100px;
+}
+
+.justColumns {
+    grid-template-columns: 150px 150px 150px 150px;
+}

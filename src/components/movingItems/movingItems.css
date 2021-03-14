@@ -1,0 +1,44 @@
+.movingItems {
+
+    :global {
+        .container {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+.oneToSecondStart {
+
+    :global {
+        .item:first-of-type {
+            grid-column-start: 2;
+        }
+    }
+}
+
+.oneToThirdStart {
+
+    :global {
+        .item:first-of-type {
+            grid-column-start: 3;
+        }
+    }
+}
+
+.oneToFifthEnd {
+
+    :global {
+        .item:first-of-type {
+            grid-column-end: 5;
+        }
+    }
+}
+
+.thirdToOneStart {
+
+    :global {
+        .item:nth-of-type(3) {
+            grid-column-start: 1;
+        }
+    }
+}

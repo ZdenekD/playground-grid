@@ -1,0 +1,35 @@
+.reordering {
+
+    :global {
+        .container {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+.oneToLast {
+
+    :global {
+        .item:first-of-type {
+            order: 1;
+        }
+    }
+}
+
+.lastToFirst {
+
+    :global {
+        .item:last-of-type {
+            order: -1;
+        }
+    }
+}
+
+.evenFirst {
+
+    :global {
+        .item:nth-of-type(even) {
+            order: -1;
+        }
+    }
+}

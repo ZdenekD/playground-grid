@@ -1,0 +1,66 @@
+.fraction {
+
+    :global {
+        .container {
+            width: 600px;
+        }
+    }
+}
+
+.twoFractionColumn {
+    grid-template-columns: 1fr 1fr;
+}
+
+.twoFractionRow {
+    height: 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.oneTwoFractionColumn {
+    grid-template-columns: 1fr 2fr;
+}
+
+.oneThreeFractionColumn {
+    grid-template-columns: 1fr 3fr;
+}
+
+.twoFourFractionColumn {
+    grid-template-columns: 2fr 4fr;
+}
+
+.fixedWidthFractionColumn {
+    grid-template-columns: 100px 1fr;
+}
+
+.percentageWidthFractionColumn {
+    grid-template-columns: 20% 1fr;
+}
+
+.fixedWidthOneTwoFractionColumn {
+    grid-template-columns: 100px 1fr 2fr 10%;
+}
+
+.fixedFraction {
+    grid-template-columns: 200px 1fr;
+}
+
+.fixedAuto {
+    grid-template-columns: 200px auto;
+}
+
+.twoFraction {
+    grid-template-columns: 1fr 1fr;
+}
+
+.twoAuto {
+    grid-template-columns: auto auto;
+}
+
+.autoFraction {
+    grid-template-columns: auto 1fr;
+}
+
+.autoFractionAuto {
+    grid-template-columns: auto 1fr auto;
+}
