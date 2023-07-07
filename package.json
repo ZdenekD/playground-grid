@@ -73,7 +73,7 @@
     "prettier": "^2.0.5",
     "progress-bar-webpack-plugin": "^2.1.0",
     "style-loader": "^1.2.1",
-    "stylelint": "^13.6.1",
+    "stylelint": "^15.10.1",
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-csstree-validator": "^1.8.0",
